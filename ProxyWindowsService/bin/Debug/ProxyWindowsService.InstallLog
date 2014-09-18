@@ -1,0 +1,119 @@
+﻿Installing assembly 'C:\Users\Daniel\Documents\GitHub\ProxyLibrary\ProxyWindowsService\bin\Debug\ProxyWindowsService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Daniel\Documents\GitHub\ProxyLibrary\ProxyWindowsService\bin\Debug\ProxyWindowsService.InstallLog
+   assemblypath = C:\Users\Daniel\Documents\GitHub\ProxyLibrary\ProxyWindowsService\bin\Debug\ProxyWindowsService.exe
+No public installers with the RunInstallerAttribute.Yes attribute could be found in the C:\Users\Daniel\Documents\GitHub\ProxyLibrary\ProxyWindowsService\bin\Debug\ProxyWindowsService.exe assembly.
+Committing assembly 'C:\Users\Daniel\Documents\GitHub\ProxyLibrary\ProxyWindowsService\bin\Debug\ProxyWindowsService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Daniel\Documents\GitHub\ProxyLibrary\ProxyWindowsService\bin\Debug\ProxyWindowsService.InstallLog
+   assemblypath = C:\Users\Daniel\Documents\GitHub\ProxyLibrary\ProxyWindowsService\bin\Debug\ProxyWindowsService.exe
+No public installers with the RunInstallerAttribute.Yes attribute could be found in the C:\Users\Daniel\Documents\GitHub\ProxyLibrary\ProxyWindowsService\bin\Debug\ProxyWindowsService.exe assembly.
+Remove InstallState file because there are no installers.
+Installing assembly 'C:\Users\Daniel\Documents\GitHub\ProxyLibrary\ProxyWindowsService\bin\Debug\ProxyWindowsService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Daniel\Documents\GitHub\ProxyLibrary\ProxyWindowsService\bin\Debug\ProxyWindowsService.InstallLog
+   assemblypath = C:\Users\Daniel\Documents\GitHub\ProxyLibrary\ProxyWindowsService\bin\Debug\ProxyWindowsService.exe
+No public installers with the RunInstallerAttribute.Yes attribute could be found in the C:\Users\Daniel\Documents\GitHub\ProxyLibrary\ProxyWindowsService\bin\Debug\ProxyWindowsService.exe assembly.
+Committing assembly 'C:\Users\Daniel\Documents\GitHub\ProxyLibrary\ProxyWindowsService\bin\Debug\ProxyWindowsService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Daniel\Documents\GitHub\ProxyLibrary\ProxyWindowsService\bin\Debug\ProxyWindowsService.InstallLog
+   assemblypath = C:\Users\Daniel\Documents\GitHub\ProxyLibrary\ProxyWindowsService\bin\Debug\ProxyWindowsService.exe
+No public installers with the RunInstallerAttribute.Yes attribute could be found in the C:\Users\Daniel\Documents\GitHub\ProxyLibrary\ProxyWindowsService\bin\Debug\ProxyWindowsService.exe assembly.
+Remove InstallState file because there are no installers.
+Installing assembly 'C:\Users\Daniel\Documents\GitHub\ProxyLibrary\ProxyWindowsService\bin\Debug\ProxyWindowsService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Daniel\Documents\GitHub\ProxyLibrary\ProxyWindowsService\bin\Debug\ProxyWindowsService.InstallLog
+   assemblypath = C:\Users\Daniel\Documents\GitHub\ProxyLibrary\ProxyWindowsService\bin\Debug\ProxyWindowsService.exe
+Installing service ...
+Creating EventLog source  in log Application...
+Rolling back assembly 'C:\Users\Daniel\Documents\GitHub\ProxyLibrary\ProxyWindowsService\bin\Debug\ProxyWindowsService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Daniel\Documents\GitHub\ProxyLibrary\ProxyWindowsService\bin\Debug\ProxyWindowsService.InstallLog
+   assemblypath = C:\Users\Daniel\Documents\GitHub\ProxyLibrary\ProxyWindowsService\bin\Debug\ProxyWindowsService.exe
+Restoring event log to previous state for source .
+Installing assembly 'C:\Users\Daniel\Documents\GitHub\ProxyLibrary\ProxyWindowsService\bin\Debug\ProxyWindowsService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Daniel\Documents\GitHub\ProxyLibrary\ProxyWindowsService\bin\Debug\ProxyWindowsService.InstallLog
+   assemblypath = C:\Users\Daniel\Documents\GitHub\ProxyLibrary\ProxyWindowsService\bin\Debug\ProxyWindowsService.exe
+Installing service ...
+Creating EventLog source  in log Application...
+Rolling back assembly 'C:\Users\Daniel\Documents\GitHub\ProxyLibrary\ProxyWindowsService\bin\Debug\ProxyWindowsService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Daniel\Documents\GitHub\ProxyLibrary\ProxyWindowsService\bin\Debug\ProxyWindowsService.InstallLog
+   assemblypath = C:\Users\Daniel\Documents\GitHub\ProxyLibrary\ProxyWindowsService\bin\Debug\ProxyWindowsService.exe
+Restoring event log to previous state for source .
+Installing assembly 'C:\Users\Daniel\Documents\GitHub\ProxyLibrary\ProxyWindowsService\bin\Debug\ProxyWindowsService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Daniel\Documents\GitHub\ProxyLibrary\ProxyWindowsService\bin\Debug\ProxyWindowsService.InstallLog
+   assemblypath = C:\Users\Daniel\Documents\GitHub\ProxyLibrary\ProxyWindowsService\bin\Debug\ProxyWindowsService.exe
+Installing service Secret Windows Service...
+Creating EventLog source Secret Windows Service in log Application...
+Rolling back assembly 'C:\Users\Daniel\Documents\GitHub\ProxyLibrary\ProxyWindowsService\bin\Debug\ProxyWindowsService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Daniel\Documents\GitHub\ProxyLibrary\ProxyWindowsService\bin\Debug\ProxyWindowsService.InstallLog
+   assemblypath = C:\Users\Daniel\Documents\GitHub\ProxyLibrary\ProxyWindowsService\bin\Debug\ProxyWindowsService.exe
+Restoring event log to previous state for source Secret Windows Service.
+An exception occurred during the Rollback phase of the System.Diagnostics.EventLogInstaller installer.
+System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+An exception occurred during the Rollback phase of the installation. This exception will be ignored and the rollback will continue. However, the machine might not fully revert to its initial state after the rollback is complete.
+Uninstalling assembly 'C:\Users\Daniel\Documents\GitHub\ProxyLibrary\ProxyWindowsService\bin\Debug\ProxyWindowsService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Daniel\Documents\GitHub\ProxyLibrary\ProxyWindowsService\bin\Debug\ProxyWindowsService.InstallLog
+   assemblypath = C:\Users\Daniel\Documents\GitHub\ProxyLibrary\ProxyWindowsService\bin\Debug\ProxyWindowsService.exe
+Removing EventLog source Secret Windows Service.
+An exception occurred during the uninstallation of the System.Diagnostics.EventLogInstaller installer.
+System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Installing assembly 'C:\Users\Daniel\Documents\GitHub\ProxyLibrary\ProxyWindowsService\bin\Debug\ProxyWindowsService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Daniel\Documents\GitHub\ProxyLibrary\ProxyWindowsService\bin\Debug\ProxyWindowsService.InstallLog
+   assemblypath = C:\Users\Daniel\Documents\GitHub\ProxyLibrary\ProxyWindowsService\bin\Debug\ProxyWindowsService.exe
+Installing service Secret Windows Service...
+Creating EventLog source Secret Windows Service in log Application...
+Rolling back assembly 'C:\Users\Daniel\Documents\GitHub\ProxyLibrary\ProxyWindowsService\bin\Debug\ProxyWindowsService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Daniel\Documents\GitHub\ProxyLibrary\ProxyWindowsService\bin\Debug\ProxyWindowsService.InstallLog
+   assemblypath = C:\Users\Daniel\Documents\GitHub\ProxyLibrary\ProxyWindowsService\bin\Debug\ProxyWindowsService.exe
+Restoring event log to previous state for source Secret Windows Service.
+An exception occurred during the Rollback phase of the System.Diagnostics.EventLogInstaller installer.
+System.Security.SecurityException: The source was not found, but some or all event logs could not be searched.  Inaccessible logs: Security.
+An exception occurred during the Rollback phase of the installation. This exception will be ignored and the rollback will continue. However, the machine might not fully revert to its initial state after the rollback is complete.
+Installing assembly 'C:\Users\Daniel\Documents\GitHub\ProxyLibrary\ProxyWindowsService\bin\Debug\ProxyWindowsService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Daniel\Documents\GitHub\ProxyLibrary\ProxyWindowsService\bin\Debug\ProxyWindowsService.InstallLog
+   assemblypath = C:\Users\Daniel\Documents\GitHub\ProxyLibrary\ProxyWindowsService\bin\Debug\ProxyWindowsService.exe
+Installing service Secret Windows Service...
+Service Secret Windows Service has been successfully installed.
+Creating EventLog source Secret Windows Service in log Application...
+Committing assembly 'C:\Users\Daniel\Documents\GitHub\ProxyLibrary\ProxyWindowsService\bin\Debug\ProxyWindowsService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Daniel\Documents\GitHub\ProxyLibrary\ProxyWindowsService\bin\Debug\ProxyWindowsService.InstallLog
+   assemblypath = C:\Users\Daniel\Documents\GitHub\ProxyLibrary\ProxyWindowsService\bin\Debug\ProxyWindowsService.exe
+Installing assembly 'C:\Users\Daniel\Documents\GitHub\ProxyLibrary\ProxyWindowsService\bin\Debug\ProxyWindowsService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Daniel\Documents\GitHub\ProxyLibrary\ProxyWindowsService\bin\Debug\ProxyWindowsService.InstallLog
+   assemblypath = C:\Users\Daniel\Documents\GitHub\ProxyLibrary\ProxyWindowsService\bin\Debug\ProxyWindowsService.exe
+Installing service Secret Windows Service...
+Creating EventLog source Secret Windows Service in log Application...
+Rolling back assembly 'C:\Users\Daniel\Documents\GitHub\ProxyLibrary\ProxyWindowsService\bin\Debug\ProxyWindowsService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Daniel\Documents\GitHub\ProxyLibrary\ProxyWindowsService\bin\Debug\ProxyWindowsService.InstallLog
+   assemblypath = C:\Users\Daniel\Documents\GitHub\ProxyLibrary\ProxyWindowsService\bin\Debug\ProxyWindowsService.exe
+Restoring event log to previous state for source Secret Windows Service.

@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProxyService", "ProxyService.csproj", "{BBF12559-EF32-43FC-AC39-F589E1E955FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProxyWindowsService", "..\ProxyWindowsService\ProxyWindowsService.csproj", "{7E11A273-2BEF-4823-9A6E-FF3E67167CE1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BBF12559-EF32-43FC-AC39-F589E1E955FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBF12559-EF32-43FC-AC39-F589E1E955FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBF12559-EF32-43FC-AC39-F589E1E955FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBF12559-EF32-43FC-AC39-F589E1E955FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E11A273-2BEF-4823-9A6E-FF3E67167CE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E11A273-2BEF-4823-9A6E-FF3E67167CE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E11A273-2BEF-4823-9A6E-FF3E67167CE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E11A273-2BEF-4823-9A6E-FF3E67167CE1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

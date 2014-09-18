@@ -1,0 +1,8 @@
+C:\Users\Daniel\Documents\GitHub\ProxyLibrary\ProxyWindowsService\bin\Debug\ProxyWindowsService.exe.config
+C:\Users\Daniel\Documents\GitHub\ProxyLibrary\ProxyWindowsService\bin\Debug\ProxyWindowsService.exe
+C:\Users\Daniel\Documents\GitHub\ProxyLibrary\ProxyWindowsService\bin\Debug\ProxyWindowsService.pdb
+C:\Users\Daniel\Documents\GitHub\ProxyLibrary\ProxyWindowsService\bin\Debug\FiddlerCore4.dll
+C:\Users\Daniel\Documents\GitHub\ProxyLibrary\ProxyWindowsService\bin\Debug\FiddlerCore4.xml
+C:\Users\Daniel\Documents\GitHub\ProxyLibrary\ProxyWindowsService\obj\Debug\ProxyWindowsService.csprojResolveAssemblyReference.cache
+C:\Users\Daniel\Documents\GitHub\ProxyLibrary\ProxyWindowsService\obj\Debug\ProxyWindowsService.exe
+C:\Users\Daniel\Documents\GitHub\ProxyLibrary\ProxyWindowsService\obj\Debug\ProxyWindowsService.pdb
