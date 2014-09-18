@@ -1,4 +1,4 @@
-ProxyLibrary
+ProxyService
 ============
 
-Simple proxy library to be called by outside process
+Simple proxy Service that runs on a windows service
