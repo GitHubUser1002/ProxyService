@@ -9,6 +9,8 @@ using System.ServiceProcess;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
+using ProxyService;
+using System.ServiceModel;
 
 namespace ProxyWindowsService
 {
@@ -22,8 +24,9 @@ namespace ProxyWindowsService
         #region Global
 
         List<Session> _allSessions = new List<Session>();
+        internal static ServiceHost _serviceHost = null;
 
-        #endregion Glboal
+        #endregion Global
 
         public ProxyWindowsService()
         {
@@ -65,11 +68,22 @@ namespace ProxyWindowsService
                 int.TryParse(args[0], out port);
             FiddlerCoreStartupFlags defaultFlags = FiddlerCoreStartupFlags.Default;
             Fiddler.FiddlerApplication.Startup(port, defaultFlags);
+
+            //we also start the wcf service here
+            if (_serviceHost != null)
+                _serviceHost.Close();
+            _serviceHost = new ServiceHost(typeof(ProxyService.ProxyService));
+            _serviceHost.Open();
         }
 
         protected override void OnStop()
         {
             Fiddler.FiddlerApplication.Shutdown();
+            if(_serviceHost != null)
+            {
+                _serviceHost.Close();
+                _serviceHost = null;
+            }
         }
 
 
